@@ -1,0 +1,12 @@
+PROGRAM Example1; (* Example 1 *)
+CONST ten = "Bui Van Nam";
+TYPE T = STRING;
+VAR  X:STRING;
+     I:INTEGER;
+     N:INTEGER;
+BEGIN
+WHILE I <= N 
+DO  
+       I := I + 1
+   I := I + 3;
+END. (* Example 1 *)

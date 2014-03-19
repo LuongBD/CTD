@@ -1,0 +1,52 @@
+Parsing a Program ....
+1-1:KW_PROGRAM
+1-9:TK_IDENT(Example1)
+1-17:SB_SEMICOLON
+Parsing a Block ....
+2-1:KW_CONST
+2-7:TK_IDENT(ten)
+2-11:SB_EQ
+2-13:TK_STR(Bui Van Nam)
+2-26:SB_SEMICOLON
+3-1:KW_TYPE
+3-6:TK_IDENT(T)
+3-8:SB_EQ
+3-10:KW_STRING
+3-16:SB_SEMICOLON
+4-1:KW_VAR
+4-6:TK_IDENT(X)
+4-7:SB_COLON
+4-8:KW_STRING
+4-14:SB_SEMICOLON
+5-6:TK_IDENT(I)
+5-7:SB_COLON
+5-8:KW_INTEGER
+5-15:SB_SEMICOLON
+6-6:TK_IDENT(N)
+6-7:SB_COLON
+6-8:KW_INTEGER
+6-15:SB_SEMICOLON
+Parsing subtoutines ....
+Subtoutines parsed ....
+7-1:KW_BEGIN
+Parsing a while statement ....
+8-2:KW_WHILE
+Parsing an expression
+8-8:TK_IDENT(I)
+Expression parsed
+8-10:SB_LE
+Parsing an expression
+8-13:TK_IDENT(N)
+Expression parsed
+8-15:KW_DO
+Parsing an assign statement ....
+9-8:TK_IDENT(I)
+9-10:SB_ASSIGN
+Parsing an expression
+9-13:TK_IDENT(I)
+9-15:SB_PLUS
+9-17:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+While statement pased ....
+10-4:Missing ';'
